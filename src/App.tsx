@@ -1,15 +1,10 @@
-import React from 'react';
-import './App.css';
-import Header from './components/Header';
-import Hero from './components/Hero/Hero';
+// import { log } from "console";
+import "./App.css";
+import { GameContainer } from "./containers/Game/Game";
 
 function App() {
-  return (
-    <>
-  <Header/>
-  <Hero/>
-    </>
-  );
+  return <GameContainer />;
+  
 }
 
 export default App;
